@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  LandmarkDetail.swift
 //  AppleSampleProject
 //
 //  Created by Nonso Otoh on 2021-05-29.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkDetail: View {
     var body: some View {
         VStack {
             mapView().frame(height:300).ignoresSafeArea(edges:.top)
-            circleImage()
+            circleImage(image:Landmark.image)
                 .offset(y:-130)
                 .padding(.bottom,-130)
             VStack(alignment:.leading){
@@ -39,8 +39,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        LandmarkDetail()
     }
 }
