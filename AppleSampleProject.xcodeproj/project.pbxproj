@@ -13,6 +13,8 @@
 		BE5D10E52662C597008B7740 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE5D10E42662C597008B7740 /* Preview Assets.xcassets */; };
 		BE5D10F02662C598008B7740 /* AppleSampleProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D10EF2662C598008B7740 /* AppleSampleProjectTests.swift */; };
 		BE5D10FB2662C598008B7740 /* AppleSampleProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D10FA2662C598008B7740 /* AppleSampleProjectUITests.swift */; };
+		BE5D110B2662CB58008B7740 /* circleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D110A2662CB58008B7740 /* circleImage.swift */; };
+		BE5D110D2662CC8B008B7740 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5D110C2662CC8B008B7740 /* mapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		BE5D10F62662C598008B7740 /* AppleSampleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleSampleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5D10FA2662C598008B7740 /* AppleSampleProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSampleProjectUITests.swift; sourceTree = "<group>"; };
 		BE5D10FC2662C598008B7740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE5D110A2662CB58008B7740 /* circleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circleImage.swift; sourceTree = "<group>"; };
+		BE5D110C2662CC8B008B7740 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				BE5D10DD2662C593008B7740 /* AppleSampleProjectApp.swift */,
 				BE5D10DF2662C593008B7740 /* ContentView.swift */,
 				BE5D10E12662C597008B7740 /* Assets.xcassets */,
+				BE5D110A2662CB58008B7740 /* circleImage.swift */,
+				BE5D110C2662CC8B008B7740 /* mapView.swift */,
 				BE5D10E62662C597008B7740 /* Info.plist */,
 				BE5D10E32662C597008B7740 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5D110B2662CB58008B7740 /* circleImage.swift in Sources */,
+				BE5D110D2662CC8B008B7740 /* mapView.swift in Sources */,
 				BE5D10E02662C593008B7740 /* ContentView.swift in Sources */,
 				BE5D10DE2662C593008B7740 /* AppleSampleProjectApp.swift in Sources */,
 			);
